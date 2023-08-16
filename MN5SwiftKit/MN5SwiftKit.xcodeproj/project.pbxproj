@@ -8,7 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		837D78F42A8CCA6C005B498E /* MN5SwiftKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837D78EB2A8CCA6B005B498E /* MN5SwiftKit.framework */; };
-		837D79052A8CCABA005B498E /* first.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D79042A8CCABA005B498E /* first.swift */; };
+		837D790A2A8CCC2D005B498E /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D79092A8CCC2D005B498E /* Dictionary.swift */; };
+		837D790B2A8CCD64005B498E /* Dictionary_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D79072A8CCB1C005B498E /* Dictionary_test.swift */; };
+		837D790D2A8CD191005B498E /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D790C2A8CD191005B498E /* String.swift */; };
+		837D790F2A8CD43C005B498E /* NSDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D790E2A8CD43C005B498E /* NSDictionary.swift */; };
+		837D79112A8CD44B005B498E /* NSString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D79102A8CD44B005B498E /* NSString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,8 +28,11 @@
 /* Begin PBXFileReference section */
 		837D78EB2A8CCA6B005B498E /* MN5SwiftKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MN5SwiftKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		837D78F32A8CCA6C005B498E /* MN5SwiftKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MN5SwiftKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		837D79042A8CCABA005B498E /* first.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = first.swift; sourceTree = "<group>"; };
-		837D79072A8CCB1C005B498E /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		837D79072A8CCB1C005B498E /* Dictionary_test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary_test.swift; sourceTree = "<group>"; };
+		837D79092A8CCC2D005B498E /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		837D790C2A8CD191005B498E /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		837D790E2A8CD43C005B498E /* NSDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSDictionary.swift; sourceTree = "<group>"; };
+		837D79102A8CD44B005B498E /* NSString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +75,7 @@
 		837D79032A8CCABA005B498E /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				837D79042A8CCABA005B498E /* first.swift */,
+				837D79082A8CCC0A005B498E /* Extensions */,
 			);
 			name = Source;
 			path = ../Source;
@@ -77,10 +84,21 @@
 		837D79062A8CCB1C005B498E /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				837D79072A8CCB1C005B498E /* test.swift */,
+				837D79072A8CCB1C005B498E /* Dictionary_test.swift */,
 			);
 			name = Tests;
 			path = ../Tests;
+			sourceTree = "<group>";
+		};
+		837D79082A8CCC0A005B498E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				837D79092A8CCC2D005B498E /* Dictionary.swift */,
+				837D790C2A8CD191005B498E /* String.swift */,
+				837D790E2A8CD43C005B498E /* NSDictionary.swift */,
+				837D79102A8CD44B005B498E /* NSString.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,7 +209,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				837D79052A8CCABA005B498E /* first.swift in Sources */,
+				837D790D2A8CD191005B498E /* String.swift in Sources */,
+				837D79112A8CD44B005B498E /* NSString.swift in Sources */,
+				837D790A2A8CCC2D005B498E /* Dictionary.swift in Sources */,
+				837D790F2A8CD43C005B498E /* NSDictionary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837D790B2A8CCD64005B498E /* Dictionary_test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
