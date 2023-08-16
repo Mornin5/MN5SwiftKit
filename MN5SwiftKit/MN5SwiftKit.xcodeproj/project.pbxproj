@@ -7,64 +7,86 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		837D78DE2A8CC48F005B498E /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D78DD2A8CC48F005B498E /* test.swift */; };
-		837D78E02A8CC4BD005B498E /* first.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D78DF2A8CC4BD005B498E /* first.swift */; };
+		837D78F42A8CCA6C005B498E /* MN5SwiftKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837D78EB2A8CCA6B005B498E /* MN5SwiftKit.framework */; };
+		837D79052A8CCABA005B498E /* first.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D79042A8CCABA005B498E /* first.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		837D78F52A8CCA6C005B498E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 837D78E22A8CCA6B005B498E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 837D78EA2A8CCA6B005B498E;
+			remoteInfo = MN5SwiftKit;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		837D78C02A8CB831005B498E /* MN5SwiftKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MN5SwiftKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		837D78DD2A8CC48F005B498E /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
-		837D78DF2A8CC4BD005B498E /* first.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = first.swift; sourceTree = "<group>"; };
+		837D78EB2A8CCA6B005B498E /* MN5SwiftKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MN5SwiftKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		837D78F32A8CCA6C005B498E /* MN5SwiftKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MN5SwiftKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		837D79042A8CCABA005B498E /* first.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = first.swift; sourceTree = "<group>"; };
+		837D79072A8CCB1C005B498E /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		837D78BD2A8CB831005B498E /* Frameworks */ = {
+		837D78E82A8CCA6B005B498E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		837D78F02A8CCA6C005B498E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837D78F42A8CCA6C005B498E /* MN5SwiftKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		837D78B62A8CB831005B498E = {
+		837D78E12A8CCA6B005B498E = {
 			isa = PBXGroup;
 			children = (
-				837D78DC2A8CBBBF005B498E /* Source */,
-				837D78DB2A8CBBBF005B498E /* Tests */,
-				837D78C12A8CB831005B498E /* Products */,
+				837D79032A8CCABA005B498E /* Source */,
+				837D79062A8CCB1C005B498E /* Tests */,
+				837D78EC2A8CCA6B005B498E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		837D78C12A8CB831005B498E /* Products */ = {
+		837D78EC2A8CCA6B005B498E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				837D78C02A8CB831005B498E /* MN5SwiftKit.framework */,
+				837D78EB2A8CCA6B005B498E /* MN5SwiftKit.framework */,
+				837D78F32A8CCA6C005B498E /* MN5SwiftKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		837D78DB2A8CBBBF005B498E /* Tests */ = {
+		837D79032A8CCABA005B498E /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				837D78DD2A8CC48F005B498E /* test.swift */,
+				837D79042A8CCABA005B498E /* first.swift */,
 			);
-			path = Tests;
+			name = Source;
+			path = ../Source;
 			sourceTree = "<group>";
 		};
-		837D78DC2A8CBBBF005B498E /* Source */ = {
+		837D79062A8CCB1C005B498E /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				837D78DF2A8CC4BD005B498E /* first.swift */,
+				837D79072A8CCB1C005B498E /* test.swift */,
 			);
-			path = Source;
+			name = Tests;
+			path = ../Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		837D78BB2A8CB831005B498E /* Headers */ = {
+		837D78E62A8CCA6B005B498E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,14 +96,14 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		837D78BF2A8CB831005B498E /* MN5SwiftKit */ = {
+		837D78EA2A8CCA6B005B498E /* MN5SwiftKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 837D78D42A8CB831005B498E /* Build configuration list for PBXNativeTarget "MN5SwiftKit" */;
+			buildConfigurationList = 837D78FD2A8CCA6C005B498E /* Build configuration list for PBXNativeTarget "MN5SwiftKit" */;
 			buildPhases = (
-				837D78BB2A8CB831005B498E /* Headers */,
-				837D78BC2A8CB831005B498E /* Sources */,
-				837D78BD2A8CB831005B498E /* Frameworks */,
-				837D78BE2A8CB831005B498E /* Resources */,
+				837D78E62A8CCA6B005B498E /* Headers */,
+				837D78E72A8CCA6B005B498E /* Sources */,
+				837D78E82A8CCA6B005B498E /* Frameworks */,
+				837D78E92A8CCA6B005B498E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -89,26 +111,46 @@
 			);
 			name = MN5SwiftKit;
 			productName = MN5SwiftKit;
-			productReference = 837D78C02A8CB831005B498E /* MN5SwiftKit.framework */;
+			productReference = 837D78EB2A8CCA6B005B498E /* MN5SwiftKit.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		837D78F22A8CCA6C005B498E /* MN5SwiftKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 837D79002A8CCA6C005B498E /* Build configuration list for PBXNativeTarget "MN5SwiftKitTests" */;
+			buildPhases = (
+				837D78EF2A8CCA6C005B498E /* Sources */,
+				837D78F02A8CCA6C005B498E /* Frameworks */,
+				837D78F12A8CCA6C005B498E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				837D78F62A8CCA6C005B498E /* PBXTargetDependency */,
+			);
+			name = MN5SwiftKitTests;
+			productName = MN5SwiftKitTests;
+			productReference = 837D78F32A8CCA6C005B498E /* MN5SwiftKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		837D78B72A8CB831005B498E /* Project object */ = {
+		837D78E22A8CCA6B005B498E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					837D78BF2A8CB831005B498E = {
+					837D78EA2A8CCA6B005B498E = {
 						CreatedOnToolsVersion = 14.3.1;
-						LastSwiftMigration = 1430;
+					};
+					837D78F22A8CCA6C005B498E = {
+						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 837D78BA2A8CB831005B498E /* Build configuration list for PBXProject "MN5SwiftKit" */;
+			buildConfigurationList = 837D78E52A8CCA6B005B498E /* Build configuration list for PBXProject "MN5SwiftKit" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,18 +158,26 @@
 				en,
 				Base,
 			);
-			mainGroup = 837D78B62A8CB831005B498E;
-			productRefGroup = 837D78C12A8CB831005B498E /* Products */;
+			mainGroup = 837D78E12A8CCA6B005B498E;
+			productRefGroup = 837D78EC2A8CCA6B005B498E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				837D78BF2A8CB831005B498E /* MN5SwiftKit */,
+				837D78EA2A8CCA6B005B498E /* MN5SwiftKit */,
+				837D78F22A8CCA6C005B498E /* MN5SwiftKitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		837D78BE2A8CB831005B498E /* Resources */ = {
+		837D78E92A8CCA6B005B498E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837D78F12A8CCA6C005B498E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -137,19 +187,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		837D78BC2A8CB831005B498E /* Sources */ = {
+		837D78E72A8CCA6B005B498E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				837D78E02A8CC4BD005B498E /* first.swift in Sources */,
-				837D78DE2A8CC48F005B498E /* test.swift in Sources */,
+				837D79052A8CCABA005B498E /* first.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837D78EF2A8CCA6C005B498E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		837D78F62A8CCA6C005B498E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 837D78EA2A8CCA6B005B498E /* MN5SwiftKit */;
+			targetProxy = 837D78F52A8CCA6C005B498E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		837D78D22A8CB831005B498E /* Debug */ = {
+		837D78FB2A8CCA6C005B498E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -210,7 +274,7 @@
 			};
 			name = Debug;
 		};
-		837D78D32A8CB831005B498E /* Release */ = {
+		837D78FC2A8CCA6C005B498E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -264,10 +328,9 @@
 			};
 			name = Release;
 		};
-		837D78D52A8CB831005B498E /* Debug */ = {
+		837D78FE2A8CCA6C005B498E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -297,16 +360,14 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		837D78D62A8CB831005B498E /* Release */ = {
+		837D78FF2A8CCA6C005B498E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -341,28 +402,77 @@
 			};
 			name = Release;
 		};
+		837D79012A8CCA6C005B498E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mornin5.MN5SwiftKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		837D79022A8CCA6C005B498E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mornin5.MN5SwiftKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		837D78BA2A8CB831005B498E /* Build configuration list for PBXProject "MN5SwiftKit" */ = {
+		837D78E52A8CCA6B005B498E /* Build configuration list for PBXProject "MN5SwiftKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				837D78D22A8CB831005B498E /* Debug */,
-				837D78D32A8CB831005B498E /* Release */,
+				837D78FB2A8CCA6C005B498E /* Debug */,
+				837D78FC2A8CCA6C005B498E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		837D78D42A8CB831005B498E /* Build configuration list for PBXNativeTarget "MN5SwiftKit" */ = {
+		837D78FD2A8CCA6C005B498E /* Build configuration list for PBXNativeTarget "MN5SwiftKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				837D78D52A8CB831005B498E /* Debug */,
-				837D78D62A8CB831005B498E /* Release */,
+				837D78FE2A8CCA6C005B498E /* Debug */,
+				837D78FF2A8CCA6C005B498E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		837D79002A8CCA6C005B498E /* Build configuration list for PBXNativeTarget "MN5SwiftKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837D79012A8CCA6C005B498E /* Debug */,
+				837D79022A8CCA6C005B498E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 837D78B72A8CB831005B498E /* Project object */;
+	rootObject = 837D78E22A8CCA6B005B498E /* Project object */;
 }
