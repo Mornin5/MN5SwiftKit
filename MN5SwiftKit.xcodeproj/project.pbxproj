@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		837D78F42A8CCA6C005B498E /* MN5SwiftKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837D78EB2A8CCA6B005B498E /* MN5SwiftKit.framework */; };
-		837D790A2A8CCC2D005B498E /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D79092A8CCC2D005B498E /* Dictionary.swift */; };
-		837D790B2A8CCD64005B498E /* Dictionary_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D79072A8CCB1C005B498E /* Dictionary_test.swift */; };
-		837D790D2A8CD191005B498E /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D790C2A8CD191005B498E /* String.swift */; };
-		837D790F2A8CD43C005B498E /* NSDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D790E2A8CD43C005B498E /* NSDictionary.swift */; };
-		837D79112A8CD44B005B498E /* NSString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D79102A8CD44B005B498E /* NSString.swift */; };
-		837D79152A8DB93A005B498E /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D79142A8DB93A005B498E /* UIDevice.swift */; };
-		837D79172A8DBBD7005B498E /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D79162A8DBBD7005B498E /* DeviceModel.swift */; };
+		837D79222A8DBDD7005B498E /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D791A2A8DBDD7005B498E /* DeviceModel.swift */; };
+		837D79232A8DBDD7005B498E /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D791B2A8DBDD7005B498E /* UIDevice.swift */; };
+		837D79242A8DBDD7005B498E /* NSString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D791E2A8DBDD7005B498E /* NSString.swift */; };
+		837D79252A8DBDD7005B498E /* NSDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D791F2A8DBDD7005B498E /* NSDictionary.swift */; };
+		837D79262A8DBDD7005B498E /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D79202A8DBDD7005B498E /* Dictionary.swift */; };
+		837D79272A8DBDD7005B498E /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D79212A8DBDD7005B498E /* String.swift */; };
+		837D792A2A8DBDE6005B498E /* Dictionary_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D79292A8DBDE6005B498E /* Dictionary_test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,13 +30,13 @@
 /* Begin PBXFileReference section */
 		837D78EB2A8CCA6B005B498E /* MN5SwiftKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MN5SwiftKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		837D78F32A8CCA6C005B498E /* MN5SwiftKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MN5SwiftKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		837D79072A8CCB1C005B498E /* Dictionary_test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary_test.swift; sourceTree = "<group>"; };
-		837D79092A8CCC2D005B498E /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
-		837D790C2A8CD191005B498E /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
-		837D790E2A8CD43C005B498E /* NSDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSDictionary.swift; sourceTree = "<group>"; };
-		837D79102A8CD44B005B498E /* NSString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSString.swift; sourceTree = "<group>"; };
-		837D79142A8DB93A005B498E /* UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
-		837D79162A8DBBD7005B498E /* DeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceModel.swift; sourceTree = "<group>"; };
+		837D791A2A8DBDD7005B498E /* DeviceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceModel.swift; sourceTree = "<group>"; };
+		837D791B2A8DBDD7005B498E /* UIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+		837D791E2A8DBDD7005B498E /* NSString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSString.swift; sourceTree = "<group>"; };
+		837D791F2A8DBDD7005B498E /* NSDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDictionary.swift; sourceTree = "<group>"; };
+		837D79202A8DBDD7005B498E /* Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		837D79212A8DBDD7005B498E /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		837D79292A8DBDE6005B498E /* Dictionary_test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionary_test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +61,8 @@
 		837D78E12A8CCA6B005B498E = {
 			isa = PBXGroup;
 			children = (
-				837D79032A8CCABA005B498E /* Source */,
-				837D79062A8CCB1C005B498E /* Tests */,
+				837D79182A8DBDD7005B498E /* Source */,
+				837D79282A8DBDE6005B498E /* Tests */,
 				837D78EC2A8CCA6B005B498E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,43 +76,49 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		837D79032A8CCABA005B498E /* Source */ = {
+		837D79182A8DBDD7005B498E /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				837D79132A8DB88E005B498E /* UIKit */,
-				837D79122A8DB881005B498E /* Foudation */,
+				837D79192A8DBDD7005B498E /* UIKit */,
+				837D791C2A8DBDD7005B498E /* Extensions */,
+				837D791D2A8DBDD7005B498E /* Foudation */,
 			);
-			name = Source;
-			path = ../Source;
+			path = Source;
 			sourceTree = "<group>";
 		};
-		837D79062A8CCB1C005B498E /* Tests */ = {
+		837D79192A8DBDD7005B498E /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				837D79072A8CCB1C005B498E /* Dictionary_test.swift */,
+				837D791A2A8DBDD7005B498E /* DeviceModel.swift */,
+				837D791B2A8DBDD7005B498E /* UIDevice.swift */,
 			);
-			name = Tests;
-			path = ../Tests;
+			path = UIKit;
 			sourceTree = "<group>";
 		};
-		837D79122A8DB881005B498E /* Foudation */ = {
+		837D791C2A8DBDD7005B498E /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				837D79092A8CCC2D005B498E /* Dictionary.swift */,
-				837D790C2A8CD191005B498E /* String.swift */,
-				837D790E2A8CD43C005B498E /* NSDictionary.swift */,
-				837D79102A8CD44B005B498E /* NSString.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		837D791D2A8DBDD7005B498E /* Foudation */ = {
+			isa = PBXGroup;
+			children = (
+				837D791E2A8DBDD7005B498E /* NSString.swift */,
+				837D791F2A8DBDD7005B498E /* NSDictionary.swift */,
+				837D79202A8DBDD7005B498E /* Dictionary.swift */,
+				837D79212A8DBDD7005B498E /* String.swift */,
 			);
 			path = Foudation;
 			sourceTree = "<group>";
 		};
-		837D79132A8DB88E005B498E /* UIKit */ = {
+		837D79282A8DBDE6005B498E /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				837D79142A8DB93A005B498E /* UIDevice.swift */,
-				837D79162A8DBBD7005B498E /* DeviceModel.swift */,
+				837D79292A8DBDE6005B498E /* Dictionary_test.swift */,
 			);
-			path = UIKit;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,12 +229,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				837D79152A8DB93A005B498E /* UIDevice.swift in Sources */,
-				837D790D2A8CD191005B498E /* String.swift in Sources */,
-				837D79112A8CD44B005B498E /* NSString.swift in Sources */,
-				837D790A2A8CCC2D005B498E /* Dictionary.swift in Sources */,
-				837D790F2A8CD43C005B498E /* NSDictionary.swift in Sources */,
-				837D79172A8DBBD7005B498E /* DeviceModel.swift in Sources */,
+				837D79272A8DBDD7005B498E /* String.swift in Sources */,
+				837D79252A8DBDD7005B498E /* NSDictionary.swift in Sources */,
+				837D79262A8DBDD7005B498E /* Dictionary.swift in Sources */,
+				837D79222A8DBDD7005B498E /* DeviceModel.swift in Sources */,
+				837D79242A8DBDD7005B498E /* NSString.swift in Sources */,
+				837D79232A8DBDD7005B498E /* UIDevice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,7 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				837D790B2A8CCD64005B498E /* Dictionary_test.swift in Sources */,
+				837D792A2A8DBDE6005B498E /* Dictionary_test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
