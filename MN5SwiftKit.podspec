@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MN5SwiftKit'
   s.version          = '0.1.1'
-  s.summary          = 'A collection components for swift/OC'
+  s.summary          = 'A collection components for swift. work for objective-c too'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  A collection components for swift. work for objective-c too.
+  Lots of common functions/extentions used in my projects.
                        DESC
 
   s.homepage         = 'https://github.com/Mornin5/MN5SwiftKit'
