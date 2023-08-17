@@ -7,11 +7,15 @@
 //
 
 import UIKit
+import MN5SwiftKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print(UITableViewHeaderFooterView.identifier)
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

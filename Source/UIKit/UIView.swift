@@ -9,7 +9,7 @@ import Foundation
 #if canImport(UIKit)
 import UIKit
 
-extension UITableViewCell {
+extension UIView {
     @objc public static var identifier: String {"\(NSStringFromClass(self))-identifier"}
 }
 

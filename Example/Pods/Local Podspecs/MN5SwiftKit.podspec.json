@@ -1,8 +1,8 @@
 {
   "name": "MN5SwiftKit",
-  "version": "0.1.0",
-  "summary": "A short description of MN5SwiftKit.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.1",
+  "summary": "A collection components for swift. work for objective-c too",
+  "description": "A collection components for swift. work for objective-c too.\nLots of common functions/extentions used in my projects.",
   "homepage": "https://github.com/Mornin5/MN5SwiftKit",
   "license": {
     "type": "MIT",
@@ -13,10 +13,15 @@
   },
   "source": {
     "git": "https://github.com/Mornin5/MN5SwiftKit.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "11.0"
   },
-  "source_files": "MN5SwiftKit/Classes/**/*"
+  "swift_versions": [
+    "5"
+  ],
+  "source_files": "Source/**/*.swift",
+  "frameworks": "UIKit",
+  "swift_version": "5"
 }

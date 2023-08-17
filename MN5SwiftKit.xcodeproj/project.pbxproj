@@ -15,8 +15,9 @@
 		837D79262A8DBDD7005B498E /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D79202A8DBDD7005B498E /* Dictionary.swift */; };
 		837D79272A8DBDD7005B498E /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D79212A8DBDD7005B498E /* String.swift */; };
 		837D792A2A8DBDE6005B498E /* Dictionary_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D79292A8DBDE6005B498E /* Dictionary_test.swift */; };
-		837D792C2A8DD1EA005B498E /* UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D792B2A8DD1EA005B498E /* UITableViewCell.swift */; };
+		837D792C2A8DD1EA005B498E /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D792B2A8DD1EA005B498E /* UIView.swift */; };
 		837D792E2A8DD59E005B498E /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D792D2A8DD59E005B498E /* String+MD5.swift */; };
+		837D79302A8DFB27005B498E /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D792F2A8DFB27005B498E /* TopViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,9 @@
 		837D79202A8DBDD7005B498E /* Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
 		837D79212A8DBDD7005B498E /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		837D79292A8DBDE6005B498E /* Dictionary_test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionary_test.swift; sourceTree = "<group>"; };
-		837D792B2A8DD1EA005B498E /* UITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCell.swift; sourceTree = "<group>"; };
+		837D792B2A8DD1EA005B498E /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		837D792D2A8DD59E005B498E /* String+MD5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+MD5.swift"; sourceTree = "<group>"; };
+		837D792F2A8DFB27005B498E /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +96,8 @@
 			children = (
 				837D791A2A8DBDD7005B498E /* DeviceModel.swift */,
 				837D791B2A8DBDD7005B498E /* UIDevice.swift */,
-				837D792B2A8DD1EA005B498E /* UITableViewCell.swift */,
+				837D792B2A8DD1EA005B498E /* UIView.swift */,
+				837D792F2A8DFB27005B498E /* TopViewController.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -233,7 +236,8 @@
 				837D792E2A8DD59E005B498E /* String+MD5.swift in Sources */,
 				837D79222A8DBDD7005B498E /* DeviceModel.swift in Sources */,
 				837D79242A8DBDD7005B498E /* NSString.swift in Sources */,
-				837D792C2A8DD1EA005B498E /* UITableViewCell.swift in Sources */,
+				837D79302A8DFB27005B498E /* TopViewController.swift in Sources */,
+				837D792C2A8DD1EA005B498E /* UIView.swift in Sources */,
 				837D79232A8DBDD7005B498E /* UIDevice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
