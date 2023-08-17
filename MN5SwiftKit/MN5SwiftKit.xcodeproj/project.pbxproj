@@ -13,6 +13,8 @@
 		837D790D2A8CD191005B498E /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D790C2A8CD191005B498E /* String.swift */; };
 		837D790F2A8CD43C005B498E /* NSDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D790E2A8CD43C005B498E /* NSDictionary.swift */; };
 		837D79112A8CD44B005B498E /* NSString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D79102A8CD44B005B498E /* NSString.swift */; };
+		837D79152A8DB93A005B498E /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D79142A8DB93A005B498E /* UIDevice.swift */; };
+		837D79172A8DBBD7005B498E /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D79162A8DBBD7005B498E /* DeviceModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,8 @@
 		837D790C2A8CD191005B498E /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		837D790E2A8CD43C005B498E /* NSDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSDictionary.swift; sourceTree = "<group>"; };
 		837D79102A8CD44B005B498E /* NSString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSString.swift; sourceTree = "<group>"; };
+		837D79142A8DB93A005B498E /* UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+		837D79162A8DBBD7005B498E /* DeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +79,8 @@
 		837D79032A8CCABA005B498E /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				837D79082A8CCC0A005B498E /* Extensions */,
+				837D79132A8DB88E005B498E /* UIKit */,
+				837D79122A8DB881005B498E /* Foudation */,
 			);
 			name = Source;
 			path = ../Source;
@@ -90,7 +95,7 @@
 			path = ../Tests;
 			sourceTree = "<group>";
 		};
-		837D79082A8CCC0A005B498E /* Extensions */ = {
+		837D79122A8DB881005B498E /* Foudation */ = {
 			isa = PBXGroup;
 			children = (
 				837D79092A8CCC2D005B498E /* Dictionary.swift */,
@@ -98,7 +103,16 @@
 				837D790E2A8CD43C005B498E /* NSDictionary.swift */,
 				837D79102A8CD44B005B498E /* NSString.swift */,
 			);
-			path = Extensions;
+			path = Foudation;
+			sourceTree = "<group>";
+		};
+		837D79132A8DB88E005B498E /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				837D79142A8DB93A005B498E /* UIDevice.swift */,
+				837D79162A8DBBD7005B498E /* DeviceModel.swift */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,10 +223,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837D79152A8DB93A005B498E /* UIDevice.swift in Sources */,
 				837D790D2A8CD191005B498E /* String.swift in Sources */,
 				837D79112A8CD44B005B498E /* NSString.swift in Sources */,
 				837D790A2A8CCC2D005B498E /* Dictionary.swift in Sources */,
 				837D790F2A8CD43C005B498E /* NSDictionary.swift in Sources */,
+				837D79172A8DBBD7005B498E /* DeviceModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

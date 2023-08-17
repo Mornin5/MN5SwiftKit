@@ -2,7 +2,7 @@
 //  Dictionary.swift
 //  MN5SwiftKit
 //
-//  Created by week on 2023/8/16.
+//  Created by Mornin5 on 2023/8/16.
 //
 
 import Foundation
@@ -37,6 +37,16 @@ extension Dictionary {
         if let v = v as? String, let v = Int(v) {return v}
         if let v = v as? Double {return Int(v)}
         return 0
+    }
+    
+    public func doubleValue(key: String) -> Double {
+        guard let v = valueFor(key: key) else {return 0.0}
+        if let v = v as? Double {return v}
+        if let v = v as? Float {return Double(v)}
+        if let v = v as? NSNumber {return v.doubleValue}
+        if let v = v as? String, let v = Double(v) {return v}
+        if let v = v as? Int {return Double(v)}
+        return 0.0
     }
     
     public func listValue(key: String) -> [Any] {

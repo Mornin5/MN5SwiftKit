@@ -2,7 +2,7 @@
 //  test.swift
 //  MN5SwiftKit
 //
-//  Created by week on 2023/8/16.
+//  Created by Mornin5 on 2023/8/16.
 //
 
 import Foundation
@@ -11,7 +11,7 @@ import XCTest
 
 class DictionaryCase: XCTestCase {
     let json1: [String: Any] = [
-        "name": "week",
+        "name": "Mornin5",
         "age": 18,
         "handsome": "true",
         "books": [["1sa"], "Funny Kit"] as [Any],
@@ -26,7 +26,7 @@ class DictionaryCase: XCTestCase {
         
         print(json1.merge(other: json2))
         
-        XCTAssert(json1.stringValue(key: "name") == "week")
+        XCTAssert(json1.stringValue(key: "name") == "Mornin5")
         XCTAssert(json1.intValue(key: "age") ==  18)
         XCTAssert(json1.boolValue(key: "handsome") == true)
         

@@ -2,7 +2,7 @@
 //  NSString.swift
 //  MN5SwiftKit
 //
-//  Created by week on 2023/8/16.
+//  Created by Mornin5 on 2023/8/16.
 //
 
 import Foundation
