@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'MN5SwiftKit_Example' do
+  pod 'MN5SwiftKit', :path => '../'
+
+  target 'MN5SwiftKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

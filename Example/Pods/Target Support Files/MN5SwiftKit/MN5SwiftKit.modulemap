@@ -1,0 +1,6 @@
+framework module MN5SwiftKit {
+  umbrella header "MN5SwiftKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

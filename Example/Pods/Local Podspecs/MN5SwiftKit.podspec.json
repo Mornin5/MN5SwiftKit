@@ -1,0 +1,22 @@
+{
+  "name": "MN5SwiftKit",
+  "version": "0.1.0",
+  "summary": "A short description of MN5SwiftKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Mornin5/MN5SwiftKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Mornin5": "mornin5.perfect.zhou@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Mornin5/MN5SwiftKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "MN5SwiftKit/Classes/**/*"
+}
