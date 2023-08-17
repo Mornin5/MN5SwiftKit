@@ -2,7 +2,7 @@
 //  DeviceModel.swift
 //  MN5SwiftKit
 //
-//  Created by week on 2023/8/17.
+//  Created by Mornin5 on 2023/8/17.
 //
 
 import Foundation

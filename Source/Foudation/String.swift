@@ -6,11 +6,10 @@
 //
 
 import Foundation
-import CommonCrypto
 
 /// JSON
 extension String {
-    public var toDictionary: [String: Any]? {
+    public var toJSONDictionary: [String: Any]? {
         get {
             guard !self.isEmpty else {return nil}
             guard let dataSelf = self.data(using: .utf8) else {return nil}
@@ -36,3 +35,7 @@ extension String {
         }
     }
 }
+
+
+
+
