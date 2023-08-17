@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Screen {
+public struct Screen {
     let ppi: UInt8
     let diagonal: Double
     let scale: UInt8
@@ -16,7 +16,7 @@ struct Screen {
 }
 
 
-enum PhoneModel {
+public enum PhoneModel {
     
     // 2022年9月7日，新款iPhone 14、14 plus、14 Pro、14 Pro Max发布
     case iPhone14
@@ -92,7 +92,7 @@ enum PhoneModel {
 
 
 extension PhoneModel {
-    static var model: PhoneModel {
+    public static var model: PhoneModel {
         get {
             var systemInfo = utsname()
             uname(&systemInfo)
@@ -167,7 +167,7 @@ extension PhoneModel {
 
 
 extension PhoneModel {
-    var physicalResolution: CGSize? {
+    public var physicalResolution: CGSize? {
         get {
             switch self {
             case .iPhone4, .iPhone4s:
