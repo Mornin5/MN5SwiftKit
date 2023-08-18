@@ -1,5 +1,5 @@
 PODS:
-  - MN5SwiftKit (0.1.1)
+  - MN5SwiftKit (0.1.4)
 
 DEPENDENCIES:
   - MN5SwiftKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MN5SwiftKit: 259bafdaef5d8e9662eb8d392ea97073db6719be
+  MN5SwiftKit: d7d0e59b975fc2cf7c7132a320806e94f9420805
 
 PODFILE CHECKSUM: 7455575982938d287d126c55060b2839debf889b
 
