@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 
 extension UIView {
+    /// UITableViewCell reusable identifier
     @objc public static var identifier: String {"\(NSStringFromClass(self))-identifier"}
 }
 

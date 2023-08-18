@@ -26,11 +26,7 @@ extension String {
     public var trim: String {trimmingCharacters(in: .whitespacesAndNewlines)}
     public var isValidUrl: Bool {
         get {
-            if let url = URL(string: self),
-               let _ = url.scheme,
-               let _ = url.host {
-                return true
-            }
+            if let url = URL(string: self), let _ = url.scheme, let _ = url.host { return true }
             return false
         }
     }

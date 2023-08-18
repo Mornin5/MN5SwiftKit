@@ -2,7 +2,7 @@
 //  TopViewController.swift
 //  MN5SwiftKit
 //
-//  Created by week on 2023/8/17.
+//  Created by Mornin5 on 2023/8/17.
 //
 
 import Foundation
@@ -46,7 +46,7 @@ protocol TopViewControllerProtocol {
     static var topController: UIViewController? {get}
 }
 
-/// default
+/// default implement
 extension TopViewControllerProtocol {
     public var topController: UIViewController?  {get{UIApplication.topController}}
     public static var topController: UIViewController?  {get{UIApplication.topController}}
