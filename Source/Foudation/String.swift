@@ -45,7 +45,7 @@ extension String {
     public func subStringInRange(_ range: ClosedRange<Int>) -> String? {
         if range.lowerBound < 0 || range.upperBound > self.count {return nil}
         let starIndex = self.index(startIndex, offsetBy: range.lowerBound)
-        let endIndex = self.index(startIndex, offsetBy: range.upperBound + 1)
-        return String(self[starIndex..<endIndex])
+        let endIndex = self.index(startIndex, offsetBy: range.upperBound)
+        return String(self[starIndex...endIndex])
     }
 }

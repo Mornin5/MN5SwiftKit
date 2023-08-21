@@ -43,6 +43,8 @@ class DictionaryCase: XCTestCase {
         
         let range1 = 0...5
         let range2 = 0..<5
+        let range3 = 1...
+        
         
         print(range1.upperBound)
         print(range2.upperBound)
