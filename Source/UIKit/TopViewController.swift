@@ -52,14 +52,14 @@ extension TopViewControllerProtocol {
     public static var topController: UIViewController?  {get{UIApplication.topController}}
 }
 
-//extension UIViewController: TopViewControllerProtocol {
-//    @objc public var topController: UIViewController?  {get{UIApplication.topController}}
-//    @objc public static var topController: UIViewController?  {get{UIApplication.topController}}
-//}
-//extension UIView: TopViewControllerProtocol {
-//    @objc public var topController: UIViewController?  {get{UIApplication.topController}}
-//    @objc public static var topController: UIViewController?  {get{UIApplication.topController}}
-//}
+extension UIViewController: TopViewControllerProtocol {
+    @objc public var topController: UIViewController?  {get{UIApplication.topController}}
+    @objc public static var topController: UIViewController?  {get{UIApplication.topController}}
+}
+extension UIView: TopViewControllerProtocol {
+    @objc public var topController: UIViewController?  {get{UIApplication.topController}}
+    @objc public static var topController: UIViewController?  {get{UIApplication.topController}}
+}
 
 #endif
 
