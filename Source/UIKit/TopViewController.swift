@@ -41,7 +41,7 @@ extension UIApplication {
 }
 
 /// get the top level visible UIViewController
-protocol TopViewControllerProtocol {
+public protocol TopViewControllerProtocol {
     var topController: UIViewController? {get}
     static var topController: UIViewController? {get}
 }
@@ -52,14 +52,14 @@ extension TopViewControllerProtocol {
     public static var topController: UIViewController?  {get{UIApplication.topController}}
 }
 
-extension UIViewController: TopViewControllerProtocol {
-    @objc public var topController: UIViewController?  {get{UIApplication.topController}}
-    @objc public static var topController: UIViewController?  {get{UIApplication.topController}}
-}
-extension UIView: TopViewControllerProtocol {
-    @objc public var topController: UIViewController?  {get{UIApplication.topController}}
-    @objc public static var topController: UIViewController?  {get{UIApplication.topController}}
-}
+//extension UIViewController: TopViewControllerProtocol {
+//    @objc public var topController: UIViewController?  {get{UIApplication.topController}}
+//    @objc public static var topController: UIViewController?  {get{UIApplication.topController}}
+//}
+//extension UIView: TopViewControllerProtocol {
+//    @objc public var topController: UIViewController?  {get{UIApplication.topController}}
+//    @objc public static var topController: UIViewController?  {get{UIApplication.topController}}
+//}
 
 #endif
 
