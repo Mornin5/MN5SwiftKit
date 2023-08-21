@@ -25,7 +25,7 @@ extension UIWindow {
 }
 
 extension UIWindow {
-    public static var key: UIWindow? {
+    @objc public static var key: UIWindow? {
         if #available(iOS 15, *) {
             return UIApplication.shared.connectedScenes.compactMap({$0 as? UIWindowScene}).flatMap({$0.windows}).last(where: {$0.isKeyWindow})
         } else {
@@ -35,7 +35,7 @@ extension UIWindow {
 }
 
 extension UIApplication {
-    public static var topController: UIViewController? {
+    @objc public static var topController: UIViewController? {
         get { UIWindow.getTopViewController(UIWindow.key?.rootViewController) }
     }
 }
