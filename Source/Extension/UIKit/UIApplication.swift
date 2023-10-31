@@ -26,20 +26,11 @@ extension UIApplication {
     @objc public var appBuildVersion: String {
         Bundle.main.infoDictionary?.stringValue(key: "CFBundleVersion") ?? ""
     }
-    
-//    @objc public var memoryUsage: Int64 {
-//        get {
-//            var info = mach_task_basic_info()
-//            var size = mach_msg_type_number_t(MemoryLayout<mach_task_basic_info>.size) / 4
-//            let kern: kern_return_t = withUnsafeMutableBytes(of: &info) {
-//                $0.withMemoryRebound(to: integer_t.self, capacity: 1) {
-//                    task_info(mach_task_self_, task_flavor_t(MACH_TASK_BASIC_INFO), $0, &size)
-//                }
-//            }
-//
-//            return 12
-//        }
-//    }
 }
 
+extension UIApplication {
+    @objc public static func openAppStorePage(_ appId: String) {
+        UIApplication.shared.open(URL(string: "itms-apps://itunes.apple.com/app/id\(appId)")!)
+    }
+}
 #endif

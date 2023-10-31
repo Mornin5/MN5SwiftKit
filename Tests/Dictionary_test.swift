@@ -43,7 +43,6 @@ class DictionaryCase: XCTestCase {
         
         let range1 = 0...5
         let range2 = 0..<5
-        let range3 = 1...
         
         
         print(range1.upperBound)
@@ -70,5 +69,14 @@ class DictionaryCase: XCTestCase {
             print(r,g,b,a)
         }
         
+    }
+    
+    func testValidEmail() {
+        print("hahaha.zhou.perfect@163.kr.com".isValidEmail)
+    }
+    
+    func testDetectUrl() {
+        let text: String = " hello, world,https://m.superbuy.com week@gmail.com  hahah@163.com "
+        print(text.emailDetect)
     }
 }

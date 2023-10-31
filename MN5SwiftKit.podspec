@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MN5SwiftKit'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'A collection components for swift. work for objective-c too'
 
   s.description      = <<-DESC

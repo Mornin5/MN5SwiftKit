@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		832855C62AAACC1D00DBE73B /* String+detection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832855C52AAACC1D00DBE73B /* String+detection.swift */; };
+		832855C82AAAF50200DBE73B /* String+validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832855C72AAAF50200DBE73B /* String+validation.swift */; };
+		832855CB2AAAF5DC00DBE73B /* String+substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832855CA2AAAF5DC00DBE73B /* String+substring.swift */; };
+		832855CD2AAAF61F00DBE73B /* String+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832855CC2AAAF61F00DBE73B /* String+JSON.swift */; };
+		8335B22B2ABD3A1300E62EC0 /* Swift-OC-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 8335B22A2ABD3A1300E62EC0 /* Swift-OC-Bridging-Header.h */; };
+		8335B22D2ABD3D1A00E62EC0 /* Block_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8335B22C2ABD3D1A00E62EC0 /* Block_test.swift */; };
+		8362AEFF2AF0E332001D54D8 /* WeakProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8362AEFE2AF0E332001D54D8 /* WeakProxy.swift */; };
 		837D78F42A8CCA6C005B498E /* MN5SwiftKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837D78EB2A8CCA6B005B498E /* MN5SwiftKit.framework */; };
 		837D79222A8DBDD7005B498E /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D791A2A8DBDD7005B498E /* DeviceModel.swift */; };
 		837D79232A8DBDD7005B498E /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D791B2A8DBDD7005B498E /* UIDevice.swift */; };
@@ -34,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		832855C52AAACC1D00DBE73B /* String+detection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+detection.swift"; sourceTree = "<group>"; };
+		832855C72AAAF50200DBE73B /* String+validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+validation.swift"; sourceTree = "<group>"; };
+		832855CA2AAAF5DC00DBE73B /* String+substring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+substring.swift"; sourceTree = "<group>"; };
+		832855CC2AAAF61F00DBE73B /* String+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+JSON.swift"; sourceTree = "<group>"; };
+		8335B2252ABD37B300E62EC0 /* Block_define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Block_define.h; sourceTree = "<group>"; };
+		8335B22A2ABD3A1300E62EC0 /* Swift-OC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swift-OC-Bridging-Header.h"; sourceTree = "<group>"; };
+		8335B22C2ABD3D1A00E62EC0 /* Block_test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block_test.swift; sourceTree = "<group>"; };
+		8362AEFE2AF0E332001D54D8 /* WeakProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakProxy.swift; sourceTree = "<group>"; };
 		837D78EB2A8CCA6B005B498E /* MN5SwiftKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MN5SwiftKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		837D78F32A8CCA6C005B498E /* MN5SwiftKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MN5SwiftKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		837D791A2A8DBDD7005B498E /* DeviceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceModel.swift; sourceTree = "<group>"; };
@@ -70,6 +85,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		832855C32AAACABF00DBE73B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				837D791D2A8DBDD7005B498E /* Foudation */,
+				837D79192A8DBDD7005B498E /* UIKit */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		832855C92AAAF51200DBE73B /* String */ = {
+			isa = PBXGroup;
+			children = (
+				837D791E2A8DBDD7005B498E /* NSString.swift */,
+				837D79212A8DBDD7005B498E /* String.swift */,
+				832855C72AAAF50200DBE73B /* String+validation.swift */,
+				832855C52AAACC1D00DBE73B /* String+detection.swift */,
+				837D792D2A8DD59E005B498E /* String+encrypt.swift */,
+				832855CA2AAAF5DC00DBE73B /* String+substring.swift */,
+				832855CC2AAAF61F00DBE73B /* String+JSON.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		8335B2242ABD377400E62EC0 /* OC */ = {
+			isa = PBXGroup;
+			children = (
+				8335B2252ABD37B300E62EC0 /* Block_define.h */,
+				8335B22A2ABD3A1300E62EC0 /* Swift-OC-Bridging-Header.h */,
+			);
+			path = OC;
+			sourceTree = "<group>";
+		};
+		8335B22E2ABD3E1400E62EC0 /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				837D79202A8DBDD7005B498E /* Dictionary.swift */,
+				837D791F2A8DBDD7005B498E /* NSDictionary.swift */,
+			);
+			path = Dictionary;
+			sourceTree = "<group>";
+		};
+		8362AEFD2AF0E2B8001D54D8 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				8362AEFE2AF0E332001D54D8 /* WeakProxy.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		837D78E12A8CCA6B005B498E = {
 			isa = PBXGroup;
 			children = (
@@ -91,8 +155,9 @@
 		837D79182A8DBDD7005B498E /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				837D79192A8DBDD7005B498E /* UIKit */,
-				837D791D2A8DBDD7005B498E /* Foudation */,
+				8362AEFD2AF0E2B8001D54D8 /* Tools */,
+				8335B2242ABD377400E62EC0 /* OC */,
+				832855C32AAACABF00DBE73B /* Extension */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -114,11 +179,8 @@
 		837D791D2A8DBDD7005B498E /* Foudation */ = {
 			isa = PBXGroup;
 			children = (
-				837D791E2A8DBDD7005B498E /* NSString.swift */,
-				837D791F2A8DBDD7005B498E /* NSDictionary.swift */,
-				837D79202A8DBDD7005B498E /* Dictionary.swift */,
-				837D79212A8DBDD7005B498E /* String.swift */,
-				837D792D2A8DD59E005B498E /* String+encrypt.swift */,
+				8335B22E2ABD3E1400E62EC0 /* Dictionary */,
+				832855C92AAAF51200DBE73B /* String */,
 			);
 			path = Foudation;
 			sourceTree = "<group>";
@@ -127,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				837D79292A8DBDE6005B498E /* Dictionary_test.swift */,
+				8335B22C2ABD3D1A00E62EC0 /* Block_test.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -138,6 +201,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8335B22B2ABD3A1300E62EC0 /* Swift-OC-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +256,7 @@
 				TargetAttributes = {
 					837D78EA2A8CCA6B005B498E = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 					};
 					837D78F22A8CCA6C005B498E = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -247,10 +312,15 @@
 				837D79222A8DBDD7005B498E /* DeviceModel.swift in Sources */,
 				83CE38082A8F169700FBEE2C /* UITableViewCell.swift in Sources */,
 				837D79242A8DBDD7005B498E /* NSString.swift in Sources */,
+				832855CD2AAAF61F00DBE73B /* String+JSON.swift in Sources */,
+				832855C62AAACC1D00DBE73B /* String+detection.swift in Sources */,
 				837D79302A8DFB27005B498E /* TopViewController.swift in Sources */,
 				837D792C2A8DD1EA005B498E /* UIView.swift in Sources */,
+				832855CB2AAAF5DC00DBE73B /* String+substring.swift in Sources */,
 				837D79232A8DBDD7005B498E /* UIDevice.swift in Sources */,
+				8362AEFF2AF0E332001D54D8 /* WeakProxy.swift in Sources */,
 				83CE38062A8F155100FBEE2C /* UIColor.swift in Sources */,
+				832855C82AAAF50200DBE73B /* String+validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				837D792A2A8DBDE6005B498E /* Dictionary_test.swift in Sources */,
+				8335B22D2ABD3D1A00E62EC0 /* Block_test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +401,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Source/OC/Swift-OC-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -386,6 +458,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Source/OC/Swift-OC-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -395,6 +468,7 @@
 		837D78FE2A8CCA6C005B498E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -424,6 +498,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -432,6 +507,7 @@
 		837D78FF2A8CCA6C005B498E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;

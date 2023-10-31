@@ -36,7 +36,7 @@ extension String {
 
 /// the following code is copy from: https://github.com/onevcat/Kingfisher/blob/master/Sources/Utility/String+MD5.swift
 // array of bytes, little-endian representation
-func arrayOfBytes<T>(_ value: T, length: Int? = nil) -> [UInt8] {
+fileprivate func arrayOfBytes<T>(_ value: T, length: Int? = nil) -> [UInt8] {
     let totalBytes = length ?? (MemoryLayout<T>.size * 8)
     
     let valuePointer = UnsafeMutablePointer<T>.allocate(capacity: 1)

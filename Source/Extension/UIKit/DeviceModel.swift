@@ -18,6 +18,12 @@ public struct Screen {
 
 public enum PhoneModel {
     
+    // 2023年9月12日，新款iPhone 15、15 plus、15 Pro、15 Pro Max发布
+    case iPhone15
+    case iPhone15Plus
+    case iPhone15Pro
+    case iPhone15ProMax
+    
     // 2022年9月7日，新款iPhone 14、14 plus、14 Pro、14 Pro Max发布
     case iPhone14
     case iPhone14Plus
@@ -149,6 +155,12 @@ extension PhoneModel {
             case "iPhone14,8":                          return .iPhone14Plus
             case "iPhone15,2":                          return .iPhone14Pro
             case "iPhone15,3":                          return .iPhone14ProMax
+                
+            case "iPhone15,4":                          return .iPhone15
+            case "iPhone15,5":                          return .iPhone15Plus
+            case "iPhone16,1":                          return .iPhone15Pro
+            case "iPhone16,2":                          return .iPhone15ProMax
+                
                 
             case "iPhone8,4":                           return .iPhoneSE1
             case "iPhone12,8":                          return .iPhoneSE2
