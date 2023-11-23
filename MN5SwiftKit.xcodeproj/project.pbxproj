@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8301D83F2B0F0D0B0048C9A6 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8301D83E2B0F0D0B0048C9A6 /* URL.swift */; };
 		832855C62AAACC1D00DBE73B /* String+detection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832855C52AAACC1D00DBE73B /* String+detection.swift */; };
 		832855C82AAAF50200DBE73B /* String+validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832855C72AAAF50200DBE73B /* String+validation.swift */; };
 		832855CB2AAAF5DC00DBE73B /* String+substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832855CA2AAAF5DC00DBE73B /* String+substring.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8301D83E2B0F0D0B0048C9A6 /* URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
 		832855C52AAACC1D00DBE73B /* String+detection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+detection.swift"; sourceTree = "<group>"; };
 		832855C72AAAF50200DBE73B /* String+validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+validation.swift"; sourceTree = "<group>"; };
 		832855CA2AAAF5DC00DBE73B /* String+substring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+substring.swift"; sourceTree = "<group>"; };
@@ -85,6 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8301D83D2B0F0CEA0048C9A6 /* URL */ = {
+			isa = PBXGroup;
+			children = (
+				8301D83E2B0F0D0B0048C9A6 /* URL.swift */,
+			);
+			path = URL;
+			sourceTree = "<group>";
+		};
 		832855C32AAACABF00DBE73B /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +189,7 @@
 		837D791D2A8DBDD7005B498E /* Foudation */ = {
 			isa = PBXGroup;
 			children = (
+				8301D83D2B0F0CEA0048C9A6 /* URL */,
 				8335B22E2ABD3E1400E62EC0 /* Dictionary */,
 				832855C92AAAF51200DBE73B /* String */,
 			);
@@ -315,6 +326,7 @@
 				832855CD2AAAF61F00DBE73B /* String+JSON.swift in Sources */,
 				832855C62AAACC1D00DBE73B /* String+detection.swift in Sources */,
 				837D79302A8DFB27005B498E /* TopViewController.swift in Sources */,
+				8301D83F2B0F0D0B0048C9A6 /* URL.swift in Sources */,
 				837D792C2A8DD1EA005B498E /* UIView.swift in Sources */,
 				832855CB2AAAF5DC00DBE73B /* String+substring.swift in Sources */,
 				837D79232A8DBDD7005B498E /* UIDevice.swift in Sources */,

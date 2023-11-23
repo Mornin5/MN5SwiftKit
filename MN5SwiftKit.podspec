@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MN5SwiftKit'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.summary          = 'A collection components for swift. work for objective-c too'
 
   s.description      = <<-DESC
@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '12.0'
   s.swift_versions = ['5']
-  s.source_files = 'Source/**/*.swift'
+  s.source_files = 'Source/**/*'
+  s.private_header_files = 'Source/OC/Swift-OC-Bridging-Header.h'
   s.frameworks = 'UIKit'
 end
